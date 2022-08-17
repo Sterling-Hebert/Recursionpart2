@@ -14,7 +14,6 @@ addToTwelve([1]); // false
 
 
 function addToTwelve(arr) {
-<<<<<<< HEAD
   debugger
   if (arr.length < 1){
     return false;
@@ -23,9 +22,6 @@ function addToTwelve(arr) {
     return true;
   }
   return addToTwelve(arr.slice(1));
-=======
-
->>>>>>> 690450bf69167d66031c0090c70f575f5bb47abd
 }
 
 addToTwelve([1, 3, 4, 7, 5]); // true

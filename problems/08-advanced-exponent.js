@@ -5,7 +5,6 @@ times, like you did previously, you will be squaring the results of the base
 number raised to the power of half of n power.
 
 The following is math, not JavaScript:
-
 exponent(b, 0) // 1
 exponent(b, 1) // b
 exponent(b, n) // exponent(b, n / 2) ** 2             [for even n]
