@@ -21,6 +21,7 @@ exponent(5, 5); // 3125
 ***********************************************************************/
 
 function exponent(num, power) {
+<<<<<<< HEAD
     debugger
     if (power === 1){
         return num;
@@ -39,6 +40,11 @@ exponent(2, -2); // 1/4 (or 0.25)
 exponent(5, 5); // 3125
 
 
+=======
+
+}
+
+>>>>>>> 690450bf69167d66031c0090c70f575f5bb47abd
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 try {
     module.exports = exponent;

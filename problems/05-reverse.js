@@ -11,12 +11,14 @@ reverse("q"); // "q"
 reverse("id"); // "di"
 reverse(""); // ""
 ***********************************************************************/
-
-
-function reverse(str) {
-  // Your code here
+let reverse = (str) => {
+  debugger
+  if(str.length === 0){
+    return str;
+  }
+  return reverse(str.slice(1)) + str[0];
 }
-
+ console.log(reverse("house")); // "esuoh"
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 try {
